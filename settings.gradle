@@ -1,7 +1,6 @@
 rootProject.name='hystrix'
 include 'hystrix-core', \
 'hystrix-examples', \
-'hystrix-examples-webapp', \
 'hystrix-contrib/hystrix-clj', \
 'hystrix-contrib/hystrix-request-servlet', \
 'hystrix-contrib/hystrix-servo-metrics-publisher', \
@@ -24,5 +23,4 @@ project(':hystrix-contrib/hystrix-rx-netty-metrics-stream').name = 'hystrix-rx-n
 project(':hystrix-contrib/hystrix-codahale-metrics-publisher').name = 'hystrix-codahale-metrics-publisher'
 project(':hystrix-contrib/hystrix-yammer-metrics-publisher').name = 'hystrix-yammer-metrics-publisher'
 project(':hystrix-contrib/hystrix-network-auditor-agent').name = 'hystrix-network-auditor-agent'
-project(':hystrix-contrib/hystrix-javanica').name = 'hystrix-javanica'
 project(':hystrix-contrib/hystrix-junit').name = 'hystrix-junit'
